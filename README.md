@@ -44,7 +44,7 @@ We analyzed global cost of living data relative to New York City and visualized 
 - **Most Affordable Countries**: Pakistan and Libya had some of the lowest cost of living indices, with costs 80% lower than New York City.
 
 **Global Heatmap of Cost of Living Index**
-<img src="https://github.com/user-attachments/assets/4c8bfac9-4de0-41b5-951a-d4c887346a3f" width="1000">
+<img src="https://github.com/user-attachments/assets/3e94a0ff-560b-42fa-8a84-886bf5c687fa" width="1000">
 
 #### **5.2. Rent Index and Cost of Living Plus Rent**
 Rental prices show significant variation across regions:
