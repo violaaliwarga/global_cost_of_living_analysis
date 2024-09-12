@@ -106,5 +106,6 @@ The analysis highlights significant regional differences in the cost of living, 
 
 #### **10. References**
 
+- [Kaggle](https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024)
 - [Numbeo: Cost of Living Index](https://www.numbeo.com/cost-of-living/rankings_by_country.jsp)
 - [Methodology](https://www.numbeo.com/common/motivation_and_methodology.jsp)
