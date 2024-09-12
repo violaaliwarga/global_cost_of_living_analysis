@@ -51,7 +51,7 @@ Rental prices show significant variation across regions:
 - **High Rent Countries**: Singapore with index of 67.2 is the highest rent country, along with Hong Kong and Switzerland.
 - **Affordable Rent Countries**: Countries like Bangladesh and Pakistan have rent prices that are less than 97% of NYC’s rent costs.
 
-<img src="https://github.com/user-attachments/assets/6261b723-c248-4018-8008-556860815056" width="1000">
+<img src="https://github.com/user-attachments/assets/eda1dec6-74af-470c-840b-5ea8027b15e8" width="1000">
 <br>
 
 #### **5.3. Groceries and Restaurants**
