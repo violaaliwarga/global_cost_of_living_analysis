@@ -1,0 +1,1 @@
+# Cost_of_Living_Index_Mid-Year_2024_Analysis
