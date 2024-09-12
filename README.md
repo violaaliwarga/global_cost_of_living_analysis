@@ -43,16 +43,16 @@ We analyzed global cost of living data relative to New York City and visualized 
 - **Top 5 Most Expensive Countries**: Switzerland with index of 101.1, slightly exceeding New York City.
 - **Most Affordable Countries**: Pakistan and Libya had some of the lowest cost of living indices, with costs 80% lower than New York City.
 
-**Global Heatmap of Cost of Living Index**
 <img src="https://github.com/user-attachments/assets/3e94a0ff-560b-42fa-8a84-886bf5c687fa" width="1000">
+<br>
 
 #### **5.2. Rent Index and Cost of Living Plus Rent**
 Rental prices show significant variation across regions:
-- **High Rent Countries**: There are no country where the rent is higher than New York City. But Singapore with index of 67.2 is the highest before NYC.
+- **High Rent Countries**: Singapore with index of 67.2 is the highest rent country, along with Hong Kong and Switzerland.
 - **Affordable Rent Countries**: Countries like Bangladesh and Pakistan have rent prices that are less than 97% of NYC’s rent costs.
 
-![Bar Chart of Rent Index by Region](#)  
-*Figure 2: Rent Index Distribution by Region*
+<img src="https://github.com/user-attachments/assets/6261b723-c248-4018-8008-556860815056" width="1000">
+<br>
 
 #### **5.3. Groceries and Restaurants**
 The **Groceries Index** and **Restaurants Index** provided insight into daily expenses:
