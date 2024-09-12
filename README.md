@@ -1,106 +1,113 @@
-# **Cost of Living Index Analysis - 2024 Mid-Year Data**
+# **Global Cost of Living Analysis: Uncovering Trends and Insights from 2024 Mid-Year Data**
 
 ---
 
-#### **1. Introduction**
+### **1. Introduction**
+In an increasingly globalized world, understanding the cost of living across different regions is crucial for individuals and businesses alike. This report explores global cost of living data from Numbeo’s 2024 mid-year index. By comparing several key metrics such as rent, groceries, restaurants, and local purchasing power to New York City (the baseline), we aim to uncover significant trends and provide insights into which countries offer affordable living, where expenses are highest, and how these factors impact local purchasing power.
 
-The cost of living is a critical metric that affects the daily lives of people globally. This project leverages **Cost of Living Index by Country** data, provided by Numbeo for mid-2024, to analyze the relative affordability of various countries compared to New York City (NYC), which serves as the baseline with a score of 100. By analyzing the **Cost of Living Index (Excluding Rent)**, **Rent Index**, **Cost of Living Plus Rent Index**, **Groceries Index**, **Restaurants Index**, and **Local Purchasing Power Index**, this report aims to identify global cost of living trends and draw meaningful insights for potential expats, governments, and organizations.
+**Dataset Source**:  
+The data used in this project was sourced from [Numbeo](https://www.numbeo.com/cost-of-living/rankings_by_country.jsp), an extensive and reliable source for cost of living data globally. This data was downloaded from [Kaggle](https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024).
 
 ---
 
-#### **2. Dataset Overview**
+### **2. Objectives**
+The goals of this analysis include:
+1. **Identify global trends** in cost of living, rent, groceries, and restaurant expenses.
+2. **Compare regions and countries** to uncover significant differences in cost of living.
+3. **Analyze the relationship** between local purchasing power and the cost of living.
+4. **Provide actionable insights** for individuals (expats, travelers) and businesses (salary adjustments for international employees).
 
-- **Source**: [Numbeo](https://www.numbeo.com/cost-of-living/rankings_by_country.jsp)
-- **Description**: This dataset includes various cost of living indices for countries worldwide as of 2024, with New York City as the baseline. 
-    - **Cost of Living Index (Excluding Rent)**: Measures consumer goods prices (groceries, restaurants, transportation, etc.) excluding accommodation.
-    - **Rent Index**: Compares average rent prices in a country to NYC.
-    - **Cost of Living Plus Rent Index**: Includes both consumer goods and rent.
-    - **Groceries Index**: Compares grocery prices to NYC.
-    - **Restaurants Index**: Compares restaurant prices to NYC.
-    - **Local Purchasing Power Index**: Measures relative purchasing power based on average salary.
+---
+
+### **3. Data Overview**
+The dataset includes the following key indices:
+- **Cost of Living Index (Excl. Rent)**: Measures relative prices of consumer goods such as groceries, transportation, and utilities compared to New York City.
+- **Rent Index**: Estimates the relative cost of renting apartments in various cities.
+- **Cost of Living Plus Rent Index**: Combines consumer goods and rent expenses for a more comprehensive comparison.
+- **Groceries Index**: Relative cost of groceries in different cities.
+- **Restaurants Index**: Compares the prices of meals in restaurants.
+- **Local Purchasing Power**: Reflects the purchasing power of residents based on average net salaries compared to New York City.
+
+Each index is relative to New York City, with an index of 100 representing parity with NYC.
+
+---
+
+### **4. Methodology**
+The data was analyzed in **Python** using popular libraries such as **Pandas**, **Matplotlib**, and **Seaborn** for data manipulation and visualization. Key metrics were evaluated using summary statistics, correlation analysis, and data visualizations.
+
+1. **Data Cleaning**: Checked for missing values, ensured consistency, and transformed raw data into usable formats.
+2. **Data Visualization**: Visualizations were created to highlight global cost of living differences, such as heat maps for geographic distribution, bar charts for category comparison, and scatter plots for correlations.
+3. **Statistical Analysis**: Conducted correlation and trend analysis to uncover relationships between cost of living indices and local purchasing power.
+
+---
+
+### **5. Analysis and Findings**
+
+#### **5.1. Global Cost of Living Trends**
+We analyzed global cost of living data relative to New York City and visualized the **Cost of Living Index (Excl. Rent)** across regions. Notable findings include:
+- **Top 5 Most Expensive Countries**: Switzerland, Norway, Iceland, Denmark, and Luxembourg ranked highest in cost of living, all exceeding New York City.
+- **Most Affordable Countries**: India, Pakistan, and Egypt had some of the lowest cost of living indices, with costs 60-80% lower than New York City.
+
+![Global Heatmap of Cost of Living Index](#)  
+*Figure 1: Global Heatmap of Cost of Living Index (Excl. Rent)*
+
+#### **5.2. Rent Index and Cost of Living Plus Rent**
+Rental prices show significant variation across regions:
+- **High Rent Countries**: Hong Kong, Singapore, and Switzerland were at the top with rental prices significantly higher than New York City.
+- **Affordable Rent Countries**: Countries like India, Tunisia, and Bolivia have rent prices that are less than 20% of NYC’s rent costs.
+
+![Bar Chart of Rent Index by Region](#)  
+*Figure 2: Rent Index Distribution by Region*
+
+#### **5.3. Groceries and Restaurants**
+The **Groceries Index** and **Restaurants Index** provided insight into daily expenses:
+- **Europe**: Countries like Switzerland and Norway show a high cost of groceries and eating out, contributing to their high overall cost of living.
+- **Southeast Asia**: Despite higher restaurant costs in cities like Singapore, groceries remain more affordable relative to Western countries.
   
----
+![Comparison of Groceries and Restaurants Index](#)  
+*Figure 3: Groceries vs. Restaurants Index Comparison*
 
-#### **3. Objectives**
+#### **5.4. Local Purchasing Power and Cost of Living**
+A key finding of this analysis is the inverse relationship between **Local Purchasing Power** and the **Cost of Living Plus Rent Index** in several countries:
+- **Higher Purchasing Power**: Countries such as the United States, Australia, and Switzerland allow residents to maintain higher purchasing power despite high living costs.
+- **Lower Purchasing Power**: Countries like Indonesia and Pakistan have low purchasing power, with residents struggling to afford everyday goods despite low living costs.
 
-The primary goals of this project are:
-1. **Compare Cost of Living Across Countries**: Identify countries with higher or lower costs of living relative to NYC.
-2. **Analyze Purchasing Power**: Examine how the local purchasing power affects affordability in different regions.
-3. **Examine Lifestyle Factors**: Investigate the relative costs of groceries and restaurants across countries.
-4. **Visualize and Present Findings**: Create visual dashboards to allow users to explore cost of living trends interactively.
-
----
-
-#### **4. Methodology**
-
-The analysis was conducted using Python for data preprocessing, cleaning, and visualization, with **Tableau** used for interactive dashboards. The following steps were performed:
-
-1. **Data Cleaning**: Ensured that all countries have complete indices, and handled any missing data.
-2. **Exploratory Data Analysis (EDA)**: Summarized key statistics and trends from the dataset, using visualizations such as heat maps, bar charts, and scatter plots.
-3. **Correlation Analysis**: Investigated the relationship between **Local Purchasing Power** and other indices, particularly how it impacts the cost of living.
-4. **Visualization**: Developed a dashboard for easy exploration of the data, including filters to compare countries or regions.
+![Scatter Plot: Purchasing Power vs. Cost of Living](#)  
+*Figure 4: Local Purchasing Power vs. Cost of Living*
 
 ---
 
-#### **5. Key Findings**
+### **6. Insights and Recommendations**
 
-##### **5.1 Global Cost of Living Comparison**
+#### **6.1. For Expats and Travelers**
+- **Affordable Living**: Countries in South Asia and parts of Latin America offer a significantly lower cost of living, making them ideal for budget-conscious travelers and expats.
+- **High Costs in Europe**: Switzerland and Norway may offer high standards of living, but expats should prepare for high costs, particularly for rent and everyday goods.
 
-- **Most Expensive Countries**: 
-    - Switzerland (Cost of Living Index: 130)
-    - Iceland (Cost of Living Index: 120)
-    - Norway (Cost of Living Index: 115)
+#### **6.2. For Businesses**
+- **Salary Adjustments**: Companies operating globally need to adjust salaries based on local cost of living and purchasing power. High-rent countries like Hong Kong will require higher salaries to maintain the same standard of living as in New York City.
+- **Relocation Recommendations**: For employees relocating, destinations like Southeast Asia offer lower costs while maintaining a reasonable quality of life.
 
-- **Most Affordable Countries**:
-    - India (Cost of Living Index: 35)
-    - Pakistan (Cost of Living Index: 30)
-    - Vietnam (Cost of Living Index: 40)
-
-##### **5.2 Purchasing Power vs. Cost of Living**
-
-- Countries with **high local purchasing power** (e.g., Switzerland, USA) tend to have a higher cost of living, but residents can afford more goods and services.
-- **Developing countries** often show a low cost of living but also low purchasing power, leading to less overall affordability for residents.
-
-##### **5.3 Rent vs. Cost of Living**
-
-- Rent is a major driver of the total cost of living in cities like New York and London, where rent prices account for more than 50% of monthly expenses.
-- Countries like **India** and **Mexico** show low Rent Indices, making them attractive for expats despite moderate living costs.
-
-##### **5.4 Groceries and Restaurants**
-
-- Eating out is significantly more expensive in countries like **Switzerland** (Restaurants Index: 130) and **Norway** (Restaurants Index: 120), while **Eastern European** and **Asian countries** offer affordable restaurant prices.
-- **Groceries** are cheapest in countries like **India** (Groceries Index: 30) and **Egypt** (Groceries Index: 25), making day-to-day living more affordable.
+#### **6.3. For Governments**
+- **Wage Policy Adjustments**: Governments in countries with low local purchasing power but rising living costs should consider adjusting minimum wage policies to help residents cope with increasing expenses.
 
 ---
 
-#### **6. Visualizations**
-
-1. **Global Heat Map**: Shows the relative cost of living for each country, highlighting regions with the highest and lowest costs.
-2. **Bar Charts**: Compare the Rent Index and Cost of Living (Excl. Rent) Index for the top 10 most expensive and least expensive countries.
-3. **Scatter Plot**: Analyzes the relationship between **Local Purchasing Power** and the overall Cost of Living Plus Rent Index.
-4. **Interactive Dashboard**: Allows users to filter by region and compare indices across different countries.
+### **7. Conclusion**
+This project demonstrates how analyzing cost of living data can reveal valuable insights for individuals, businesses, and governments alike. The global variations in rent, groceries, and local purchasing power highlight the complex nature of affordability across different regions. Moving forward, this analysis can be extended by including historical data to uncover cost of living trends over time or integrating additional variables such as economic growth and inflation rates.
 
 ---
 
-#### **7. Conclusion**
-
-The analysis highlights significant regional differences in the cost of living, largely driven by local rent prices and purchasing power. Countries like Switzerland and Norway, while expensive, offer strong local purchasing power, making them more manageable for residents. On the other hand, developing nations such as India and Vietnam offer affordable living conditions but come with a tradeoff in lower local purchasing power. These insights can be valuable for potential expats, businesses looking to relocate, or governments considering cost-of-living adjustments for wages.
-
----
-
-#### **8. Future Work**
-
-1. **Predictive Analysis**: Incorporating rent and living cost predictions based on economic trends.
-2. **Time-Series Analysis**: Tracking cost of living changes over time to identify inflationary trends.
-3. **Custom Country Comparisons**: Building a tool that allows users to directly compare cost of living between selected countries for specific use cases (e.g., relocation planning).
+### **8. Tools Used**
+- **Programming Language**: Python
+- **Libraries**: Pandas, Matplotlib, Seaborn
+- **Visualization Platform**: Tableau or Power BI (optional for dashboard creation)
 
 ---
 
-#### **9. Tools & Technologies Used**
-
-- **Python**: For data cleaning, analysis, and visualization (libraries: Pandas, Matplotlib, Seaborn).
-- **Tableau**: For creating the interactive dashboard.
-- **Numbeo Data**: For sourcing cost of living data.
+### **9. Future Work**
+- **Historical Data Analysis**: Analyze trends over time to forecast future changes in cost of living and rent prices.
+- **Deeper Correlation Analysis**: Incorporate more variables (e.g., inflation rates, employment rates) to understand what drives living costs.
+- **Interactive Dashboard**: Build an interactive dashboard for users to explore the data in real-time.
 
 ---
 
