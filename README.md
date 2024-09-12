@@ -51,16 +51,16 @@ Rental prices show significant variation across regions:
 - **High Rent Countries**: Singapore with index of 67.2 is the highest rent country, along with Hong Kong and Switzerland.
 - **Affordable Rent Countries**: Countries like Bangladesh and Pakistan have rent prices that are less than 97% of NYC’s rent costs.
 
-<img src="https://github.com/user-attachments/assets/eda1dec6-74af-470c-840b-5ea8027b15e8" width="1000">
+<img src="https://github.com/user-attachments/assets/eda1dec6-74af-470c-840b-5ea8027b15e8" width="800">
 <br>
 
 #### **5.3. Groceries and Restaurants**
 The **Groceries Index** and **Restaurants Index** provided insight into daily expenses:
 - **Groceries**: Switzerland shows a high cost of groceries and eating out, contributing to its high overall cost of living. It even exceeded NYC by nearly 10%. Whereas Pakistan is the most affordable with index of 17.5.
 - **Restaurants**: Switzerland still holds the top rank, but restaurant costs is 4% lower than NYC. With Bangladesh holds the most affordable with more than 80% cheaper than restaurants in NYC.
-  
-![Comparison of Groceries and Restaurants Index](#)  
-*Figure 3: Groceries vs. Restaurants Index Comparison*
+
+<img src="https://github.com/user-attachments/assets/b6f213ad-dee0-4751-899c-1e7b2f5398a9" width="800">
+<br>
 
 #### **5.4. Local Purchasing Power and Cost of Living**
 A key finding of this analysis is the inverse relationship between **Local Purchasing Power** and the **Cost of Living Plus Rent Index** in several countries:
