@@ -67,7 +67,7 @@ A key finding of this analysis is the inverse relationship between **Local Purch
 - **Higher Purchasing Power**: Countries such as the Luxembourg, Kuwait, and Qatar allow residents to maintain higher purchasing power especially with low-medium living costs.
 - **Lower Purchasing Power**: Countries like Cuba and Syria have low purchasing power, with residents struggling to afford everyday goods despite low living costs.
 
-<img src="[https://github.com/user-attachments/assets/78ebce97-4feb-4e94-ab13-427ed95adb7f](https://github.com/user-attachments/assets/bed2f198-175a-40eb-90ba-5e133d55293a)" width="500">
+<img src="https://github.com/user-attachments/assets/bed2f198-175a-40eb-90ba-5e133d55293a" width="500">
 <br>
 
 ---
