@@ -81,3 +81,5 @@ Analyzing cost of living data reveals significant global variations in affordabi
 #### **9. References**
 - [Numbeo: Cost of Living Index](https://www.numbeo.com/cost-of-living/rankings_by_country.jsp)
 - [Kaggle Dataset](https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024)
+
+All of the python codes can be found [here](https://github.com/violaaliwarga/global_cost_of_living_analysis/blob/main/Global%20Cost%20of%20Living%20Analysis.ipynb)
